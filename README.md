@@ -33,7 +33,7 @@
 - **Appropriate use of frameworks and tools**. You don't necessarily have to use the latest and greatest frameworks. As long as you use your preferred tools in an appropriate way and are able to describe your reasoning if asked, you're good to go.
 
 ## Bonus Points
-You may choose to make the application repsonsive.
+You may choose to make the application responsive.
 
 ## Help!
 Should you stumble into any questions during your quest, feel free tor reach out to your recruiter or dev contact. There are no stupid questions!
