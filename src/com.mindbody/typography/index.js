@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Title = (props) => {
+export const Title = (props) => {
     const {className, styles, value} = props;
 
     return (
@@ -9,6 +9,3 @@ const Title = (props) => {
         </h2>
     )
 };
-
-
-export default Title;

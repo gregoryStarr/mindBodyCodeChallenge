@@ -1,8 +1,8 @@
 import React from 'react';
-import Title from '../typography/Title'
-import {IconButton} from "../controls/Button";
-import BarChart from "../content/charts/BarChart";
-import Table from "../content/Table";
+import {Title} from '../../typography/index'
+import {IconButton} from "../../controls/Button";
+import BarChart from "../../content/charts/BarChart/index";
+import Table from "../../content/Table/index";
 const Panel = (props) => {
     const {chartData,
         tableData,

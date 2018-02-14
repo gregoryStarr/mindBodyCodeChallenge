@@ -3,15 +3,15 @@ import React from 'react';
 import {storiesOf} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
 
-import Table from "../com.mindbody/content/Table/index";
-import Icon from "../com.mindbody/content/Icon";
-import BarChart from "../com.mindbody/content/charts/BarChart/index";
+import Table from "../src/com.mindbody/content/Table/index";
+import Icon from "../src/com.mindbody/content/Icon";
+import BarChart from "../src/com.mindbody/content/charts/BarChart/index";
 
-import {Button, IconButton} from "../com.mindbody/controls/Button";
-import Link from "../com.mindbody/controls/Link";
-import Panel from "../com.mindbody/layout/Panel/index";
-import Page from "../com.mindbody/layout/Page/index";
-import TabBar from "../com.mindbody/layout/TabBar/index";
+import {Button, IconButton} from "../src/com.mindbody/controls/Button";
+import Link from "../src/com.mindbody/controls/Link";
+import Panel from "../src/com.mindbody/layout/Panel/index";
+import Page from "../src/com.mindbody/layout/Page/index";
+import TabBar from "../src/com.mindbody/layout/TabBar/index";
 
 storiesOf('Content Components', module)
     .add('Icon', () => <Icon className="FA-home"/>)

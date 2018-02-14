@@ -1,9 +1,10 @@
 import React from 'react'
+import "./style.css"
 const Page = (props) => {
     const {children, ...styleProps} = props;
 
     return (
-       <div style={{...styleProps}}>
+       <div className="Page" style={{...styleProps}}>
            {children}
         </div>
     )
