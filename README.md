@@ -4,7 +4,7 @@
 ------------------------------
 
 # Preface
-I was not able to address the design aspect of your challenge. I would like to highlight the project structure, architecture decisions, and project configuration.
+I was not able to address the design aspect of your challenge.
 
 # Requirements
 You will need node to run this project
