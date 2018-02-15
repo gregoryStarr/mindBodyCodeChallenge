@@ -7,7 +7,7 @@ import Table from "../src/com.mindbody/content/Table/index";
 import Icon from "../src/com.mindbody/content/Icon";
 import BarChart from "../src/com.mindbody/content/charts/BarChart/index";
 
-import {Button, IconButton} from "../src/com.mindbody/controls/Button";
+import {Button, IconButton} from "../src/com.mindbody/controls/Button/index";
 import Link from "../src/com.mindbody/controls/Link";
 import Panel from "../src/com.mindbody/layout/Panel/index";
 import Page from "../src/com.mindbody/layout/Page/index";

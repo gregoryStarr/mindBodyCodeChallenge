@@ -1,16 +1,11 @@
 import React from 'react';
 import {Title} from '../../typography/index'
-import {IconButton} from "../../controls/Button";
-import BarChart from "../../content/charts/BarChart/index";
-import Table from "../../content/Table/index";
+import {IconButton} from "../../controls/Button/index";
 const Panel = (props) => {
-    const {chartData,
-        tableData,
+    const {
         title,
         icon,
         MoreLink} = props;
-
-
 
     return (<div>
                 <header>
@@ -18,8 +13,7 @@ const Panel = (props) => {
                     <div/>
                     <IconButton className={icon}/>
                 </header>
-                <BarChart data={chartData}/>
-                <Table tableata={tableData}/>
+                { props.children }
                 <footer>
                     {MoreLink}
                     <div/>
